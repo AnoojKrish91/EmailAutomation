@@ -3,4 +3,4 @@ This application was built to automate sending status reports to team members an
 
 Steps for you:
 
-  1. Change credentials in application.properties file and try the application.
+  1. Change credentials in src/main/application.properties file and try the application.
