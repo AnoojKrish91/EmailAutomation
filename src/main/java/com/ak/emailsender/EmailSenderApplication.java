@@ -20,13 +20,9 @@ public class EmailSenderApplication implements CommandLineRunner {
         SpringApplication.run(EmailSenderApplication.class, args);
     }
 
-    @Autowired
-    private WeeklyEmail weeklyEmail;
-
     @Override
     public void run(String... args) throws Exception {
         System.out.println("Started Run thread");
-        weeklyEmail.emailWithAttachmentSender();
     }
 }
 
